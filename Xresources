@@ -1,0 +1,12 @@
+xterm*faceName: DejaVu Sans Mono Book: antialias=True: pixelsize=16
+xterm*faceNameDoublesize:WenQuanYi Zen Hei: antialias=True: pixelsize=16
+xterm*locale:zh_CN.UTF-8
+
+xterm*foreground:rgb:b2/b2/b2
+xterm*background:rgb:08/08/08
+
+xterm*scaleHeight: 1.01
+
+xterm*dynamicColors:true
+
+xterm*geometry:76x25

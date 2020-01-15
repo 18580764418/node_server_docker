@@ -1,0 +1,20 @@
+version: '3'
+services:
+  server_node:
+    image: 'server_node:0.0.1'
+    container_name: 'server_node'
+    user: 'root'
+    tty: true
+    ports:
+    - '80:8888'
+    - '443:8443'
+    - '9000:9000'
+
+  mongo_db:
+    container_name: 'mongo_db'
+    image: 'heawercher/mongo-enterprise:4.0'
+    ports:
+    - "27018:27017"
+    volumes:
+    - /root/docker/mongo/db:/data/db
+    - /root/docker/mongo/conf:/data/configdb
